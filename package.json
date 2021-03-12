@@ -1,0 +1,28 @@
+{
+  "name": "xstate-playground",
+  "version": "1.0.0",
+  "description": "XState Playground",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balintsoos/xstate-playground.git"
+  },
+  "author": "Balint Soos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/balintsoos/xstate-playground/issues"
+  },
+  "homepage": "https://github.com/balintsoos/xstate-playground#readme",
+  "dependencies": {
+    "xstate": "4.16.2"
+  },
+  "devDependencies": {
+    "@types/node": "14.14.33",
+    "ts-node": "9.1.1",
+    "typescript": "4.2.3"
+  }
+}
